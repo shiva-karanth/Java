@@ -27,5 +27,6 @@ public class constr {
         Test t2=new Test(1);
         Test t3=new Test("abc");
         Test t4=new Test("poc",45);
+        Test t5=new Test("PQR",10);
     }
 }

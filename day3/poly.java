@@ -1,13 +1,13 @@
 package day3;
 class A{
     public void demo(){
-        System.out.println("Demo of A");
+        System.out.println("Demo of A: ");
     }
 }
 class B extends A{
     @Override
     public void demo(){
-        System.out.println("Demo of B");
+        System.out.println("Demo of B: ");
     }
 }
 public class poly {
