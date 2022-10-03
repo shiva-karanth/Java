@@ -12,14 +12,14 @@ class Student{
 public class objArr {
     public static void main(String[] args) {
         Student[] students=new Student[3];
-        students[0]=new Student("kini", 69);
-        students[1]=new Student("prajwal", 69);
-        students[2]=new Student("kini prajwal", 69);
+        students[0]=new Student("PP", 20);
+        students[1]=new Student("PPS", 20);
+        students[2]=new Student("PSP", 40);
 
         for (int i = 0; i < students.length; i++) {
-            System.out.println("Kini name:"+students[i].name);
-            System.out.println("Kini age:"+students[i].age);
-            System.out.println("-----------------------------------------------");
+            System.out.println("Name:"+students[i].name);
+            System.out.println("Age:"+students[i].age);
+            System.out.println("-----------------------------------");
         }
     }
 }
